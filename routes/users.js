@@ -4,7 +4,7 @@ var util = require('util');
 var fs = require('fs');
 var path = require('path');
 var dal = require("@nodulus/data");
-var api = require("../app/api.js");
+var api = require("@nodulus/api");
 var moment = require('moment');
 var usermanager = require("../app/users").users;
 router.post('/login', function (req, res) {
