@@ -1,10 +1,9 @@
-var express = require('express');
+var express = require('@nodulus/core');
 var router = express.Router();
 var util = require('util');
 var fs = require('fs');
 var path = require('path');
-var dal = require("@nodulus/data");
-var api = require("@nodulus/api");
+ 
 var moment = require('moment');
 var usermanager = require("../app/users").users;
 router.post('/login', function (req, res) {
