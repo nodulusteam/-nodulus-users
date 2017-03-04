@@ -26,16 +26,7 @@ export class users {
             else {
                 callback(user[0]);
             }
-
-
-
-
-
         });
-
-
-
-
     }
 
     public static register(user: any, callback: Function): void {
